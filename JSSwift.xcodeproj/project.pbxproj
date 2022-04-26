@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36C728C528182D4D00DB5CFD /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C728C428182D4D00DB5CFD /* Monster.swift */; };
 		36D3970C281702B400BB85E8 /* JSSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D3970B281702B400BB85E8 /* JSSwiftApp.swift */; };
 		36D3970E281702B400BB85E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D3970D281702B400BB85E8 /* ContentView.swift */; };
 		36D39710281702B600BB85E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D3970F281702B600BB85E8 /* Assets.xcassets */; };
 		36D39713281702B600BB85E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36D39712281702B600BB85E8 /* Preview Assets.xcassets */; };
+		36D3971A2817541B00BB85E8 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 36D397192817541B00BB85E8 /* script.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		36C728C428182D4D00DB5CFD /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 		36D39708281702B400BB85E8 /* JSSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36D3970B281702B400BB85E8 /* JSSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSSwiftApp.swift; sourceTree = "<group>"; };
 		36D3970D281702B400BB85E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		36D3970F281702B600BB85E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36D39712281702B600BB85E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		36D397192817541B00BB85E8 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 		36D396FF281702B400BB85E8 = {
 			isa = PBXGroup;
 			children = (
+				36D397192817541B00BB85E8 /* script.js */,
 				36D3970A281702B400BB85E8 /* JSSwift */,
 				36D39709281702B400BB85E8 /* Products */,
 			);
@@ -55,6 +60,7 @@
 				36D3970D281702B400BB85E8 /* ContentView.swift */,
 				36D3970F281702B600BB85E8 /* Assets.xcassets */,
 				36D39711281702B600BB85E8 /* Preview Content */,
+				36C728C428182D4D00DB5CFD /* Monster.swift */,
 			);
 			path = JSSwift;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D39713281702B600BB85E8 /* Preview Assets.xcassets in Resources */,
+				36D3971A2817541B00BB85E8 /* script.js in Resources */,
 				36D39710281702B600BB85E8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36D3970E281702B400BB85E8 /* ContentView.swift in Sources */,
+				36C728C528182D4D00DB5CFD /* Monster.swift in Sources */,
 				36D3970C281702B400BB85E8 /* JSSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
